@@ -9,7 +9,7 @@ jobs:
   signin:
     name: Aliyun Signin
     runs-on: ubuntu-latest
-    steps:
+   steps:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
           REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
